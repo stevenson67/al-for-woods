@@ -16,7 +16,15 @@
 </head>
 
 <body>
-    <div class="border"></div>
+    <div class="borders__wrapper">
+        <div class="container">
+            <div class="columns">
+                <div class="column borders__item"></div>
+                <div class="column borders__item"></div>
+                <div class="column borders__item"></div>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="container">
             <div class="header-head flex">
@@ -47,8 +55,8 @@
     <main class="main">
         <section class="navigation">
             <div class="container">
-                <div class="navigation-content flex">
-                    <div class="navigation-left">
+                <div class="columns navigation-content flex">
+                    <div class="column navigation-left">
                         <ul class="navigation__items list-reset flex">
                             <li class="navigation__item">
                                 <a class="navigation__item-link" href="#">Главная</a>
@@ -63,10 +71,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="navigation-center">
+                    <div class="column navigation-center">
                         <h1 class="navigation-title">Кухни</h1>
                     </div>
-                    <div class="navigation-right">
+                    <div class="column navigation-right">
                         <p class="navigation-descr">Мебель производится в Санкт-Перетбурге из премиальных материалов</p>
                     </div>
                 </div>
@@ -74,38 +82,38 @@
         </section>
         <section class="kitchen">
             <div class="container">
-                <ul class="kitchen__items list-reset flex">
-                    <li class="kitchen__item">
+                <div class="columns kitchen__items list-reset flex">
+                    <div class="column kitchen__item">
                         <p class="kitchen__item-num">01</p>
                         <img class="kitchen__item-img" src="img/kitchen-1.jpg" alt="Kitchen">
                         <p class="kitchen__item-descr">Кухни в классическом стиле</p>
-                    </li>
-                    <li class="kitchen__item">
+                    </div>
+                    <div class="column kitchen__item">
                         <p class="kitchen__item-num">02</p>
                         <img class="kitchen__item-img" src="img/kitchen-2.jpg" alt="Kitchen">
                         <p class="kitchen__item-descr">Кухни в стиле неоклассика</p>
-                    </li>
-                    <li class="kitchen__item">
+                    </div>
+                    <div class="column kitchen__item">
                         <p class="kitchen__item-num">03</p>
                         <img class="kitchen__item-img" src="img/kitchen-3.jpg" alt="Kitchen">
                         <p class="kitchen__item-descr">Кухни в современном стиле</p>
-                    </li>
-                    <li class="kitchen__item">
+                    </div>
+                    <div class="column kitchen__item">
                         <p class="kitchen__item-num">04</p>
                         <img class="kitchen__item-img" src="img/kitchen-1.jpg" alt="Kitchen">
                         <p class="kitchen__item-descr">Кухни в классическом стиле</p>
-                    </li>
-                    <li class="kitchen__item">
+                    </div>
+                    <div class="column kitchen__item">
                         <p class="kitchen__item-num">05</p>
                         <img class="kitchen__item-img" src="img/kitchen-2.jpg" alt="Kitchen">
                         <p class="kitchen__item-descr">Кухни в стиле неоклассика</p>
-                    </li>
-                    <li class="kitchen__item">
+                    </div>
+                    <div class="column kitchen__item">
                         <p class="kitchen__item-num">06</p>
                         <img class="kitchen__item-img" src="img/kitchen-3.jpg" alt="Kitchen">
                         <p class="kitchen__item-descr">Кухни в современном стиле</p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -113,7 +121,7 @@
         <div class="container">
             <div class="footer-contents flex">
                 <div class="footer-left">
-                    <h1 class="footer-logo">AllForWood</h1>
+                    <img class="footer-logo" src="img/logo-footer.svg">
                     <p class="footer-adress">г. Санкт-Петербург, ул. Невский проспект, 31</p>
                 </div>
                 <div class="footer-center">
